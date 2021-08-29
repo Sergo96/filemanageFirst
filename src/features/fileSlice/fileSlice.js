@@ -1,11 +1,15 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {};
+const initialState = {
+
+};
 
 const fileSlice = createSlice({
   name: "file",
   initialState,
-  reducers: {},
+  reducers: {
+
+  },
 });
 
 export const {} = fileSlice.actions;
